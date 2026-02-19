@@ -1,7 +1,7 @@
 package edu.iesam.features.authors.data;
 
-impot edu.iesam.features.authors.domain.Author;
-impot edu.iesam.features.authors.domain.AuthorRepository;
+import edu.iesam.features.authors.domain.Author;
+import edu.iesam.features.authors.domain.AuthorRepository;
 
 import java.util.ArrayList;
 

@@ -1,13 +1,13 @@
 package edu.iesam.features.albums.data;
 
-impot edu.iesam.features.albums.domain.Album;
+import edu.iesam.features.albums.domain.Album;
 
 import java.util.ArrayList;
 
 public class AlbumMemLocalDataSource {
     public ArrayList<Album> Storage = new ArrayList<>();
 
-   private   AlbumMemLocalDataSource(AlbumDataRepository albumDataRepository) {
+   private   AlbumMemLocalDataSource() {
         initData();
     }
 

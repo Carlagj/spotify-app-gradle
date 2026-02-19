@@ -1,7 +1,7 @@
 package edu.iesam.features.albums.data;
 
-impot edu.iesam.features.albums.domain.Album;
-impot edu.iesam.features.albums.domain.AlbumRepository;
+import edu.iesam.features.albums.domain.Album;
+import edu.iesam.features.albums.domain.AlbumRepository;
 
 import java.util.ArrayList;
 
