@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class AlbumMemLocalDataSource {
     public ArrayList<Album> Storage = new ArrayList<>();
 
-   private   AlbumMemLocalDataSource() {
+   public AlbumMemLocalDataSource() {
         initData();
     }
 

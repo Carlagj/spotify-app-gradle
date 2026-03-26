@@ -16,7 +16,7 @@ public class GetAlbumsUseCase {
 
     public ArrayList<Album> execute(){
 
-        return  null;
+        return  albumRepository.getAlbums();
     }
 
 
